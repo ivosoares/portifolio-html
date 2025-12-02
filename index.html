@@ -75,18 +75,18 @@
             </section>
             <section class="contato" id="contato">
                 <h2>Contato:</h2>
-                <form>
+                <form name="contact" method="POST" data-netlify="true">
                     <label for="nome">Nome:</label>
-                    <input type="text" id="nome" class="form-input"/>
+                    <input type="text" id="nome" class="form-input" name="nome"/>
 
                     <label for="email">E-mail:</label>
-                    <input type="email" placeholder="email@email.com" id="email" class="form-input"/>
+                    <input type="email" placeholder="email@email.com" id="email" class="form-input" name="email"/>
 
                     <label for="tel">Telefone:</label>
-                    <input type="tel" placeholder="(xx)xxxx-xxxx" id="tel" class="form-input">
+                    <input type="tel" placeholder="(xx)xxxx-xxxx" id="tel" class="form-input" name="tel">
 
                     <label for="msg">Mensagem:</label>
-                    <textarea placeholder="Digite a sua mensagem..." id="msg" rows="10" class="form-input"></textarea>
+                    <textarea placeholder="Digite a sua mensagem..." id="msg" rows="10" class="form-input" name="mensagem"></textarea>
 
                     <button type="submit">Enviar</button>
                 </form>
